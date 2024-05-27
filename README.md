@@ -5,11 +5,11 @@ This is a frontend assignement for the internship program at Koders. This projec
 
 ## Table of Contents
 
-[Structure](#projectStructure)
-[Documentation](#documentation)
-[Installation](#installation)
-[Usage](#usage)
-[License](#license)
+   1. [Structure](#projectStructure)
+   2. [Documentation](#documentation)
+   3. [Installation](#installation)
+   4. [Usage](#usage)
+   5. [License](#license)
 
 ## Project Structure <a name='projectStructure'/>
 
