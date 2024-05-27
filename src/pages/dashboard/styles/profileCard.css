@@ -1,0 +1,64 @@
+.card-container {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background-color: var(--secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.employee-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.employee-title {
+  font-size: 21px;
+  font-weight: 800;
+  color: var(--text-secondary);
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.employee-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+.employee-designation {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text-primary);
+  margin: 0;
+  padding: 0;
+}
+
+.empMonth-image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  object-fit: cover;
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/*Addding root and dark theme colors for the react application*/
+/*root denotes the color theme that will work by default under 'light theme' */
+:root {
+  --background-primary: #4895ef;
+  --background-secondary: white;
+  --text-primary: #080808;
+  --text-secondary: #4895ef;
+  --primary: #4895ef;
+  --secondary: #efefef;
+  --tertiary: #fafafa;
+  --accent: purple;
+}
+/*dark denotes the color theme that will work under 'dark theme' */
+[data-theme="dark"] {
+  --background-primary: #121212;
+  --background-secondary: #181818;
+  --text-primary: white;
+  --text-secondary: #efefef;
+  --primary: #121212;
+  --secondary: #252525;
+  --tertiary: #303030;
+  --accent: darkred;
+}
